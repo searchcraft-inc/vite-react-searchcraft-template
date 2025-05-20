@@ -11,6 +11,8 @@ import searchcraftLogo from "./assets/searchcraft.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { ExampleSearchResultTemplate } from "./ExampleSearchResultTemplate";
+import { WelcomeMessage } from "./WelcomeMessage";
+import { WelcomeFooter } from "./WelcomeFooter";
 
 const INDEX_NAME = import.meta.env.VITE_INDEX_NAME;
 const READ_KEY = import.meta.env.VITE_READ_KEY;
@@ -39,7 +41,7 @@ function App() {
 					<a href="https://react.dev" target="_blank">
 						<img src={reactLogo} className="logo react" alt="React logo" />
 					</a>
-					<a href="https://searchcraft.io" target="_blank">
+					<a href="https://docs.searchcraft.io" target="_blank">
 						<img
 							src={searchcraftLogo}
 							className="logo react"
@@ -63,50 +65,8 @@ function App() {
 					<SearchcraftTheme />
 				</section>
 			)}
-			{!hasEnvVars && (
-				<section style={{ maxWidth: 700 }}>
-					<div>
-						Please add your `.env` variables from Vektron to get started. Once
-						your env is added, a text input and search results will be rendered
-						here.
-					</div>
-					<pre>{"VITE_ENDPOINT_URL= \nVITE_INDEX_NAME= \nVITE_READ_KEY="}</pre>
-				</section>
-			)}
-			<footer
-				style={{ marginTop: "2rem", textAlign: "center", fontSize: "0.9rem" }}
-			>
-				<nav style={{ display: "flex", gap: "1rem", justifyContent: "center" }}>
-					<a
-						href="https://docs.searchcraft.io"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						📘 Docs
-					</a>
-					<a
-						href="https://vektron.searchcraft.io"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						🛰️ Vektron
-					</a>
-					<a
-						href="https://discord.gg/WteTxPBM"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						💬 Discord
-					</a>
-					<a
-						href="https://www.npmjs.com/package/@searchcraft/react-sdk"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						🧪 SDK on npm
-					</a>
-				</nav>
-			</footer>
+			{!hasEnvVars && <WelcomeMessage />}
+			<WelcomeFooter />
 		</>
 	);
 }
