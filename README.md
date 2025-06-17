@@ -110,7 +110,8 @@ This project includes a few helpful npm/yarn scripts to streamline development:
 
 - 📘 [Searchcraft Docs](https://docs.searchcraft.io)
 - 🛰️ [Vektron Dashboard](https://vektron.searchcraft.io)
-- 💬 [Searchcraft Discord](https://discord.gg/WteTxPBM)
+- 💬 [Searchcraft Discord](https://discord.gg/RQnGD63qWw)
+- 🧠 [Searchcraft Reddit](https://www.reddit.com/r/searchcraft/)
 - 🧪 [Searchcraft SDK on npm](https://www.npmjs.com/package/@searchcraft/react-sdk)
 
 ## License
