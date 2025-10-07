@@ -1,4 +1,4 @@
-<img alt="ReTail website screenshot" src="./header.png">
+<img alt="Searchcraft" src="./header.png">
 <h1 align="center">vite-react-searchcraft-template</h1>
 <p align="center">
 A minimal React + TypeScript template powered by <a href="https://searchcraft.io">Searchcraft</a> – the developer-first vertical search engine.
@@ -28,6 +28,8 @@ A minimal React + TypeScript template powered by <a href="https://searchcraft.io
 ## Table of Contents
 - [Purpose](#purpose)
 - [Features](#features)
+  - [🧰 Template Features](#-template-features)
+  - [🔍 Searchcraft SDK Features](#-searchcraft-sdk-features)
 - [Getting Started](#getting-started)
 - [Available Scripts](#available-scripts)
 - [Requirements](#requirements)
