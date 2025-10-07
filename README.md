@@ -15,7 +15,7 @@ A minimal React + TypeScript template powered by <a href="https://searchcraft.io
     <img src="https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
   <a href="https://www.npmjs.com/package/@searchcraft/react-sdk">
-    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.10.7-2B2B2B.svg" alt="Searchcraft SDK">
+    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.11.1-2B2B2B.svg" alt="Searchcraft SDK">
   </a>
   <a href="https://eslint.org/">
     <img src="https://img.shields.io/badge/ESLint-9.25.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">

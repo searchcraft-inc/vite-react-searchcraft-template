@@ -26,7 +26,7 @@ function App() {
 			new Searchcraft({
 				readKey: READ_KEY,
 				endpointURL: ENDPOINT_URL,
-				index: [INDEX_NAME],
+				indexName: INDEX_NAME,
 			});
 		}
 	}, [hasEnvVars]);
@@ -45,7 +45,7 @@ function App() {
 						<img
 							src={searchcraftLogo}
 							className="logo react"
-							alt="React logo"
+							alt="Searchcraft logo"
 						/>
 					</a>
 				</div>
