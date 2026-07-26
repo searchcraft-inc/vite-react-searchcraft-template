@@ -6,22 +6,22 @@ A minimal React + TypeScript template powered by <a href="https://searchcraft.io
 
 <p align="center">
   <a href="https://vitejs.dev/">
-    <img src="https://img.shields.io/badge/Vite-6.4.1-646CFF.svg?logo=vite&style=flat" alt="Vite">
+    <img src="https://img.shields.io/badge/Vite-8.1.5-646CFF.svg?logo=vite&style=flat" alt="Vite">
   </a>
   <a href="https://react.dev/">
-    <img src="https://img.shields.io/badge/React-19.1.0-61DAFB.svg?logo=react&style=flat" alt="React">
+    <img src="https://img.shields.io/badge/React-19.2.8-61DAFB.svg?logo=react&style=flat" alt="React">
   </a>
   <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/badge/TypeScript-5.8-blue.svg?logo=typescript&style=flat" alt="TypeScript">
+    <img src="https://img.shields.io/badge/TypeScript-6.0-blue.svg?logo=typescript&style=flat" alt="TypeScript">
   </a>
   <a href="https://www.npmjs.com/package/@searchcraft/react-sdk">
-    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.12.0-2B2B2B.svg" alt="Searchcraft SDK">
+    <img src="https://img.shields.io/badge/Searchcraft_SDK-0.15.1-2B2B2B.svg" alt="Searchcraft SDK">
   </a>
   <a href="https://eslint.org/">
-    <img src="https://img.shields.io/badge/ESLint-9.25.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">
+    <img src="https://img.shields.io/badge/ESLint-10.8.0-4B32C3.svg?logo=eslint&style=flat" alt="ESLint">
   </a>
   <a href="https://nodejs.org/en/">
-    <img src="https://img.shields.io/badge/Node.js-18+-339933.svg?logo=node.js&style=flat" alt="Node.js">
+    <img src="https://img.shields.io/badge/Node.js-20.19+-339933.svg?logo=node.js&style=flat" alt="Node.js">
   </a>
 </p>
 
@@ -53,10 +53,10 @@ Whether you're building search for a publisher, SaaS app, ecommerce experience, 
 ### 🧰 Template Features
 
 - ⚛️ **React 19 + TypeScript** – The latest versions for modern development
-- ⚡ **Vite 6** – Lightning-fast builds, HMR, and DX
+- ⚡ **Vite 8** – Lightning-fast builds, HMR, and DX
 - 🧪 **Minimal boilerplate** – Just enough structure to get started
 - 🔐 **Environment-based configuration** – No hardcoded secrets
-- ✅ **ESLint 9** – Preconfigured for code quality
+- ✅ **ESLint 10** – Preconfigured for code quality
 
 ### 🔍 Searchcraft SDK Features
 
@@ -104,7 +104,7 @@ This project includes a few helpful npm/yarn scripts to streamline development:
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) v18+
+- [Node.js](https://nodejs.org/) v20.19+ (or v22.13+ / v24+)
 - [Yarn](https://yarnpkg.com/) (or npm)
 - A [Searchcraft](https://searchcraft.io) account with a configured index
 
